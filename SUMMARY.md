@@ -1,0 +1,150 @@
+# Summary
+
+* PC端框架
+    * [简介](pc/README.md)
+    * [基本样式文件](pc/uiFrame/basicCss.md)
+    * [iconfont](pc/uiFrame/iconfont.md)
+    * [公用meta](pc/uiFrame/meta.md)
+    * UI组件
+        * [图片轮播](pc/uiFrame/Slider.md)
+        * [tab选项卡](pc/uiFrame/tab.md)
+        * [分页](pc/uiFrame/paging.md)
+        * [日历](pc/uiFrame/calendar.md) 
+        * [弹出层](pc/uiFrame/elasticLayer.md)
+        * [loading加载中](pc/uiFrame/loading.md)
+        * [暂无数据](pc/uiFrame/noData.md)
+        * [帮助和提示](pc/uiFrame/help.md)
+        * [下载图标](pc/uiFrame/download.md)
+        * [表格](pc/uiFrame/table.md)
+        * [按钮](pc/uiFrame/button.md)
+        * [复选框](pc/uiFrame/check.md)
+        * [错误提示](pc/uiFrame/errorTip.md)
+        * [页面右下角浮动导航](pc/uiFrame/sideBar.md)
+        * [回到顶部](pc/uiFrame/goTop.md)
+        * [用户操作步骤及当前标识](pc/uiFrame/stepAction.md)
+        * [图片放大查看](pc/uiFrame/zoomFn.md)
+        * 下拉选项
+            * [单级](pc/uiFrame/select.md)
+            * 多级
+                * [省市区地址联动](pc/uiFrame/address.md)
+            * [数据回显的下拉选择](pc/uiFrame/selectData.md)
+        * 列表
+            * [普通列表](pc/uiFrame/list.md)
+            * [内容可展开收起的列表](pc/uiFrame/slideToggleList.md)
+        * 表单
+            * [表单元素及基本结构](pc/uiFrame/basicForm.md)
+            * [input输入框](pc/uiFrame/input.md)
+            * [textarea](pc/uiFrame/textarea.md)
+            * [表单中的下拉选项](pc/uiFrame/formSelect.md)
+            * [红色*——必填的表单元素](pc/uiFrame/formRed.md)
+            * [表单中的错误提示](pc/uiFrame/formError.md)
+            * [表单数据回显](pc/uiFrame/formData.md)
+            * [formEvent.js说明](pc/uiFrame/formEvent.md)
+    * js工具
+        * [判断IE版本](pc/uiFrame/ie.md)
+        * [获取指定日期](pc/uiFrame/getDate.md)
+        * [拆分并获取地址栏参数](pc/uiFrame/splitUrl.md)
+        * [utils](pc/uiFrame/utils.md)
+        * [ajax](pc/uiFrame/ajax.md)
+        * [base64加密](pc/uiFrame/base64.md)
+        * [数字改成中文大写](pc/uiFrame/toChinese.md)
+    * 事件
+        * [jQuery事件](pc/event/jQuery.md)
+
+---
+
+* wap框架
+    * [简介](wap/README.md)
+    * [mui](wap/uiFrame/mui.md)
+    * [iconfont](wap/uiFrame/iconfont.md)
+    * [基本样式文件](wap/uiFrame/basicCss.md)
+    * UI组件
+        * [卡片视图](wap/uiFrame/card.md)
+        * [多个元素水平放置（如：底部导航）](wap/uiFrame/grid.md)
+        * 列表
+            * [列表](wap/uiFrame/list.md)
+            * [展开收起动作](wap/uiFrame/openClose.md)
+        * [按钮](wap/uiFrame/button.md) 
+        * [帮助和提示](wap/uiFrame/help.md) 
+        * [单选框](wap/uiFrame/radio.md)
+        * [复选框](wap/uiFrame/checkbox.md) 
+        * [开关](wap/uiFrame/switch.md)  
+        * [loading加载中](wap/uiFrame/loading.md)
+        * [表格](wap/uiFrame/table.md)
+        * [暂无数据](wap/uiFrame/noData.md)
+        * [黑色提示条](wap/uiFrame/tip.md)
+        * [用户操作步骤及当前标识](wap/uiFrame/stepAction.md)
+        * 弹出层
+            * [弹出层](wap/uiFrame/elasticlayer.md)
+            * [确认离开当前页面并弹出确认弹框](wap/uiFrame/ConfirmAwayNowPage.md)
+        * 选择器
+            * [基于mui的选择器](wap/uiFrame/picker.md)
+            * [非基于mui](wap/uiFrame/select.md)
+        * [上拉加载+回到顶部](wap/uiFrame/pullup&goTop.md)
+        * 左右滑动切换
+            * [导航上的按钮数据确定时](wap/uiFrame/tabScroll_2.md)
+            * [导航上的按钮数据不确定时](wap/uiFrame/tabScroll.md)
+        * [图片轮播](wap/uiFrame/sliderMui.md) 
+        * 表单
+            * [表单元素及基本结构](wap/uiFrame/basicForm.md)
+            * [input输入框](wap/uiFrame/input.md)
+            * [textarea](wap/uiFrame/textarea.md)
+            * [表单中的下拉选项](wap/uiFrame/formSelect.md)
+            * [表单数据回显](wap/uiFrame/formData.md)
+        * [资讯类页面模板](wap/uiFrame/module.md)
+    * js工具
+        * [获取指定日期](wap/uiFrame/getDate.md)
+        * [拆分并获取地址栏参数](wap/uiFrame/splitUrl.md)
+        * [utils](wap/uiFrame/utils.md)
+        * [ajax](wap/uiFrame/ajax.md)
+        * [生成二维码](wap/uiFrame/erweima.md)
+    * 事件
+        * [Zepto事件](wap/event/zepto.md)
+        * [mui事件](wap/event/mui.md)
+
+---
+
+* 企金框架
+    * [简介](qj/README.md)
+    * 客户端(浏览器)
+        * [分页](qj/uiFrame/frame/paging/paging.md)
+        * [按钮](qj/uiFrame/frame/button/button.md)
+            * [不带单选效果](qj/uiFrame/frame/button/inputButton.md)
+            * [带单选效果](qj/uiFrame/frame/button/radioButton.md)
+        * [轮播图](qj/uiFrame/frame/Carousel.md)
+        * [单选/复选](qj/uiFrame/frame/checkAndRadio/checkAndRadio.md)
+            * [单选](qj/uiFrame/frame/checkAndRadio/radio.md)
+            * [复选](qj/uiFrame/frame/checkAndRadio/check.md)
+            * [单选/复选的组合](qj/uiFrame/frame/checkAndRadio/list.md)
+        * [面包屑](qj/uiFrame/frame/crumb.md)
+        * 弹出层
+            * [类型一](qj/uiFrame/frame/elasticLayer/typeOne.md)
+            * [类型二](qj/uiFrame/frame/elasticLayer/typeTwo.md)
+            * [signUp](qj/uiFrame/frame/elasticLayer/signUp.md)
+        * 表单
+            * [简介](qj/uiFrame/frame/form/intro.md)
+            * [表单元素的分类](qj/uiFrame/frame/form/category.md)
+            * [使用方式](qj/uiFrame/frame/form/use.md)
+        * 列表
+            * [列表](qj/uiFrame/frame/list/list.md)
+            * [列表中包含表格](qj/uiFrame/frame/listTable/listTable.md)
+        * [暂无数据](qj/uiFrame/frame/checkAndRadio.md)
+        * tab
+            * [类型一](qj/uiFrame/frame/tab/type_1.md)
+            * [类型二](qj/uiFrame/frame/tab/type_2.md)
+        * [上传](qj/uiFrame/frame/checkAndRadio.md)
+        * js方法
+            * [handelbars公用helper](qj/uiFrame/frame/js/handelbars.md)
+    * 服务端(node)
+        * [获取cookie，删除cookie](qj/node/dealCookie.md)
+        * [请求接口](qj/node/sendApi.md)
+
+---
+
+* 一些教程/文档
+    * [handlebars文档](document/handlebars.md)
+    * [sshkey生成及配置](document/sshKey.md)
+    * [git使用](document/git.md)
+    * 各项目环境配置及启动方法
+        * [wap金服](document/env/wapJf.md)
+    * [gitbook使用方法](document/gitbook.md)

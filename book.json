@@ -1,0 +1,46 @@
+{
+   "title": "前端组UI框架",
+   "description": "技术开发部前端组UI框架",
+   "language": "zh-hans",
+   "styles":{
+      "website": "styles/reset.css"
+   },
+   "plugins":[
+      	"expandable-chapters",
+      	"splitter",
+        "-sharing",
+        "-search",
+        "-highlight",
+        "tbfed-pagefooter",
+        "book-summary-scroll-position-saver",
+        "favicon",
+        "copy-code-button",
+        "atoc",
+        "prism",
+        "include-codeblock",
+        "back-to-top-button",
+        "img-code-magnification",
+        "advanced-emoji"
+    ],
+    "pluginsConfig": {
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        },
+        "tbfed-pagefooter": {
+          "copyright":"前端框架"
+        },
+        "favicon":{
+            "shortcut": "assets/images/logo.png"
+        },
+        "prism": {
+          "css": [
+            "prismjs/themes/prism-solarizedlight.css"
+          ]
+        },
+        "include-codeblock": {
+            "unindent": true,
+            "theme": "monokai"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.btn {
+  display: block;
+  font-weight: bold;
+  height: 46px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+div.btn {
+  text-align: center;
+}
+.btn.type_1 {
+  background: #f4cf5c;
+  color: #fff;
+}
+.btn.type_1:disabled {
+  background: #c7c7c7;
+  color: #fff;
+}
+.btn.type_2 {
+  background: #fff;
+  border: 1px solid #c7c7c7;
+  color: #999;
+}
+.btn.type_3 {
+  background: #c7c7c7;
+  color: #fff;
+}
+.btn.type_4 {
+  background: #fff;
+  border: 2px solid #f4cf5c;
+  color: #f4cf5c;
+  font-weight: bold;
+}
+.btn.type_5 {
+  background: #f4cf5c;
+  color: #7d5010;
+}
+.btn.type_6 {
+  background: #fff;
+  color: #6c8ca5;
+  border: 1px solid #6c8ca5;
+}
+.btn.type_7 {
+  background: #fff;
+  color: #f52f3e;
+  border: 1px solid #f52f3e;
+}
+.btn.r_l_radius {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+.btn .iconfont {
+  line-height: 46px;
+}
+.btn .iconfont + .value {
+  line-height: 46px;
+}
+.btn {
+  width: 140px;
+}
+.btn.big {
+  width: 172px;
+}
+.btn.btnMore {
+  margin-right: 20px;
+  float: left;
+}
+.btn.btnMore.num_2 {
+  width: calc(50% - 20px);
+}
+.btn.btnMore + .btn {
+  margin-left: 0px;
+}
+.btn.btnMore:last-child {
+  margin-right: 0;
+}
