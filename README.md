@@ -1,16 +1,21 @@
-# 前端组UI框架
+# 前端组件库
+
+包括UI组件、工具方法两类，还有一些教程、文档。
+
+UI组件又分`PC`端、移动端、服务端（`Node`）三个部分。
+
+`PC`端包括原生JS组件、`jQuery`插件。
+
+移动端包括`Zepto`插件，`MUI`组件、`Vue`组件。
+
+工具方法包括常用util库、正则表达式集合、`Handlebars`常用方法等。
 
 
-以项目区分，目前有`PC`金服，`wap`金服，`pc`企金三个项目的组件
 
-PC端的框架兼容Chrome、Firefox等常见浏览器，`IE`兼容9+
+PC端兼容`Chrome、Firefox`等常见浏览器，`IE`兼容9+。
 
-移动端框架基于`mui`，具体`mui`介绍及文档见官网，此处附加`mui`官网地址：
+默认技术栈：HTML5、Less、jQuery、Zepto、MUI、Vue、Node、express、Handlebars
+
+附`mui`官网地址：
 
 http://dev.dcloud.net.cn/mui/
-
-本框架的样式文件使用`less`书写，`js`使用`es5`，使用`gulp/webpack`打包，因此`js`中引用其他文件使用`require()`语句。
-
-框架内相关样式和`js`文件在`frameFile`文件夹中，有需要可自行查看~
-
-本框架使用`gitbook`制作，`gitbook`的使用方法见左边目录中，[一些教程/文档--gitbook使用方法](document/gitbook.md)
