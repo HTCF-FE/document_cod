@@ -117,7 +117,6 @@
     * [ajax](wap/uiFrame/ajax.md)
     * [生成二维码](wap/uiFrame/erweima.md)
     * [handelbars公用helper](qj/uiFrame/frame/js/handelbars.md)
-
 ---
 
 * 教程/文档
@@ -127,3 +126,4 @@
     * 各项目环境配置及启动方法
         * [wap金服](document/env/wapJf.md)
     * [gitbook使用方法](document/gitbook.md)
+    * [活动页兼容性问题及解决方法整理](document/activity.md)
